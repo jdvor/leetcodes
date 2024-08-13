@@ -10,6 +10,10 @@ public class Leet1105Bench
     private static readonly int ShelfWidth = Leet1105.Data[0].shelfWidth;
 
     [Benchmark]
-    public int Version1()
+    public int MinHeightShelves()
         => Leet.MinHeightShelves(Books, ShelfWidth);
+
+    [Benchmark]
+    public int MinHeightShelvesRecursive()
+        => Leet.MinHeightShelvesRecursive(Books, ShelfWidth);
 }
