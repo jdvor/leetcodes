@@ -1,4 +1,4 @@
 ﻿using BenchmarkDotNet.Running;
 using LeetCodes.Benchmarks;
 
- BenchmarkRunner.Run<Leet1105Bench>();
+ BenchmarkRunner.Run<Leet121Bench>();
